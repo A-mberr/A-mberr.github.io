@@ -1,1 +1,1 @@
-https://github.com/A-mberr/A-mberr.github.io.git
+https://a-mberr.github.io
