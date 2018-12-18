@@ -6,27 +6,30 @@ Student number: 11819359 -->
 <html>
   <head>
     <meta charset="utf-8">
-    <script src="d3/d3.v5.js"></script>
-    <script src="scatter.js"></script>
-    <link href="scatter.css" rel="stylesheet">
-    <title>Scatterplot assignment</title>
+    <script src="d3.v5.js"</script>
+    <script src="scriptCereal.js"></script>
+    <link href="cereal.css" rel="stylesheet">
+    <title>Linked views</title>
     <style>
+    .axis--x path {
+      display: none;
+    }
+    .bar {
+      fill: steelblue;
+    }
+    .bar:hover {
+      fill: brown;
+    }
     </style>
   </head>
-  <body>
-    <h1>Scatterplot Assignment</h1>
-    <h2>Amber Nobel - 11819359</h2>
-
-    <svg width="1000" height="600"></svg><br>
-    <p> Select a subject:</p>
-    <button onclick="showData('consConf.json')">
-      Consumer Confidence
-    </button>
-    <button onclick="showData('msti.json')">
-      Women in science
-    </button>
-    <p>The following sources have been used to extract the data for these scatterplots:</p>
-    <a href="http://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015">Women in Science, a dataset that shows the percetnage of female reseachers through the years</a><br>
-    <a href="http://stats.oecd.org/SDMX-JSON/data/HH_DASH/FRA+DEU+KOR+NLD+PRT+GBR.COCONF.A/all?startTime=2007&endTime=2015">Consumer Confindence, a dataset that shows the Consumer Confidence index form different countries</a>
+  <body bgcolor="white">
+    <h1>Nutritional values of 50 different cereal bars</h1>
+    <h2>Amber Nobel - 11819359</h2></br>
+    <p>Cerels are a popular type of breakfast all over the world. It is a tasty and crunchy start of the day.
+    But this raises the question, is this start of the day also a healthy start.
+  To answer this question, I made you some visualiation tools.
+  I took 50 well-known cereal brand and gathered their nutritional values.
+  By clicking on the bar chart on the prefered ceral brand, you can see a pie chart that will give you more information on the amount of fat,
+  proteins and carbohydrates in that specific ceral brand.</p>
   </body>
 </html>
