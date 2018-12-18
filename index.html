@@ -1,23 +1,32 @@
-Data Processing<br/>
-<br/>
-This Github page includes the assignments of the course Data visualisatie<br/>
-<br/>
-Assignments<br/>
-Week 1<br/>
-<a href="https://github.com/A-mberr/DataProcessing/tree/master/Homework/Week_1">Moviescraper</a><br/> 
-<br/> 
-Week 2:<br/> 
-<a href="https://github.com/A-mberr/DataProcessing/tree/master/Homework/Week_2">EDA</a><br/> 
-[EDA](https://github.com/A-mberr/DataProcessing/tree/master/Homework/Week_2)<br/> 
-https://github.com/A-mberr/DataProcessing/tree/master/Homework/Week_2<br/>
-<br/>  
-Week 3:<br/>
-<a href="https://github.com/A-mberr/DataProcessing/tree/master/Homework/Week_3">Line Chart</a><br/> 
-<br/> 
-Week 4:<br/>
-<a href="https://github.com/A-mberr/DataProcessing/tree/master/Homework/Week_4">Bar Chart</a><br/> 
-<br/>
-Week 5:<br/>
-Scatterplot<br/>
-<a href="https://github.com/A-mberr/DataProcessing/tree/master/Homework/Week_5">Scatter plot</a><br/> 
-<a href="https://github.com/A-mberr/DataProcessing/blob/master/Homework/Week_5/index.html">Scatter plot</a>
+<!--
+Name: Amber Nobel
+Student number: 11819359 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="d3/d3.v5.js"></script>
+    <script src="scatter.js"></script>
+    <link href="scatter.css" rel="stylesheet">
+    <title>Scatterplot assignment</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <h1>Scatterplot Assignment</h1>
+    <h2>Amber Nobel - 11819359</h2>
+
+    <svg width="1000" height="600"></svg><br>
+    <p> Select a subject:</p>
+    <button onclick="showData('consConf.json')">
+      Consumer Confidence
+    </button>
+    <button onclick="showData('msti.json')">
+      Women in science
+    </button>
+    <p>The following sources have been used to extract the data for these scatterplots:</p>
+    <a href="http://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015">Women in Science, a dataset that shows the percetnage of female reseachers through the years</a><br>
+    <a href="http://stats.oecd.org/SDMX-JSON/data/HH_DASH/FRA+DEU+KOR+NLD+PRT+GBR.COCONF.A/all?startTime=2007&endTime=2015">Consumer Confindence, a dataset that shows the Consumer Confidence index form different countries</a>
+  </body>
+</html>
